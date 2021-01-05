@@ -11,6 +11,11 @@
 		B579EF4825A2E4D0004C8A3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579EF4725A2E4D0004C8A3B /* ContentView.swift */; };
 		B579EF4A25A2E4D4004C8A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B579EF4925A2E4D4004C8A3B /* Assets.xcassets */; };
 		B579EF4D25A2E4D4004C8A3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B579EF4C25A2E4D4004C8A3B /* Preview Assets.xcassets */; };
+		B579EF5725A30601004C8A3B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579EF5625A30601004C8A3B /* Home.swift */; };
+		B579EF5B25A30963004C8A3B /* middleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579EF5A25A30963004C8A3B /* middleView.swift */; };
+		B579EF5E25A30AB9004C8A3B /* bottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579EF5D25A30AB9004C8A3B /* bottomView.swift */; };
+		B579EF6125A30BCF004C8A3B /* ExpandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579EF6025A30BCF004C8A3B /* ExpandView.swift */; };
+		B579EF6425A313FD004C8A3B /* expandBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579EF6325A313FD004C8A3B /* expandBottom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		B579EF4925A2E4D4004C8A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B579EF4C25A2E4D4004C8A3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B579EF4E25A2E4D4004C8A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B579EF5625A30601004C8A3B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B579EF5A25A30963004C8A3B /* middleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = middleView.swift; sourceTree = "<group>"; };
+		B579EF5D25A30AB9004C8A3B /* bottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomView.swift; sourceTree = "<group>"; };
+		B579EF6025A30BCF004C8A3B /* ExpandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandView.swift; sourceTree = "<group>"; };
+		B579EF6325A313FD004C8A3B /* expandBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expandBottom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 		B579EF4425A2E4D0004C8A3B /* Game Store UI */ = {
 			isa = PBXGroup;
 			children = (
+				B579EF5525A305F7004C8A3B /* View */,
 				B579EF4525A2E4D0004C8A3B /* Game_Store_UIApp.swift */,
 				B579EF4725A2E4D0004C8A3B /* ContentView.swift */,
 				B579EF4925A2E4D4004C8A3B /* Assets.xcassets */,
@@ -67,6 +78,18 @@
 				B579EF4C25A2E4D4004C8A3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B579EF5525A305F7004C8A3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B579EF5625A30601004C8A3B /* Home.swift */,
+				B579EF5A25A30963004C8A3B /* middleView.swift */,
+				B579EF5D25A30AB9004C8A3B /* bottomView.swift */,
+				B579EF6025A30BCF004C8A3B /* ExpandView.swift */,
+				B579EF6325A313FD004C8A3B /* expandBottom.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B579EF4825A2E4D0004C8A3B /* ContentView.swift in Sources */,
+				B579EF5B25A30963004C8A3B /* middleView.swift in Sources */,
+				B579EF6125A30BCF004C8A3B /* ExpandView.swift in Sources */,
+				B579EF6425A313FD004C8A3B /* expandBottom.swift in Sources */,
+				B579EF5725A30601004C8A3B /* Home.swift in Sources */,
 				B579EF4625A2E4D0004C8A3B /* Game_Store_UIApp.swift in Sources */,
+				B579EF5E25A30AB9004C8A3B /* bottomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
